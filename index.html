@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Remember to include jQuery :) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+    <!-- jQuery Modal -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font family -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+    <!-- for icons -->
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- for css -->
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+<body>
+    <!-- part1 -->
+    <div class="navbar">
+        <div class="cname">
+            <div class="one">Elegant</div>
+            <div class="two">Gems</div>
+        </div>
+        <div class="nav">
+            <a href="#">Home</a>
+            <a href="#categories">Categories</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div class="block0">
+            <div class="pic1">
+                <div class="cap">
+                    <h1>Necklaces</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio dolorum quis dolore,
+                        molestias modi sequi.</p>
+                </div>
+            </div>
+            <div class="pic2">
+                <div class="cap">
+                    <h1>Jewelery Sets</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio dolorum quis dolore,
+                        molestias modi sequi.</p>
+                </div>
+            </div>
+            <div class="pic3">
+                <div class="cap">
+                    <h1>Earrings</h1>
+                    <p>Lorem ipsum dolor sit, dolorum quis dolore, molestias modi sequi.</p>
+                </div>
+            </div>
+            <div class="pic4">
+                <div class="cap">
+                    <h1>Bracelets</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio dolorum quis dolore,
+                        molestias modi sequi.</p>
+                </div>
+            </div>
+        </div>
+        <div class="bg"></div>
+        <div class="bg2">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-twitter"></a>
+        </div>
+    </div>
+    <!-- Modal HTML embedded directly into document -->
+    <!-- part2 -->
+    <section>
+        <div class="block" id="reviews">
+            <div class="list" id="categories">
+                <!-- Link to open the modal -->
+                <p><a href="#ex1" rel="modal:open" class="fas fa-images"></br></br>Catigories</a></p>
+                <p><a href="#ex2" rel="modal:open" class="fas fa-credit-card"></br></br>Mode Of Payment</a></p>
+                <p><a href="#ex3" rel="modal:open" class="fa fa-envelope"></br></br>Reviews</a></p>
+            </div>
+        </div>
+
+        <div class="box">
+            <!-- Modal HTML embedded directly into document -->
+            <div id="ex1" class="modal">
+                <h2>Categories...</h2>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <div class="options">
+                    <a href="#ex11" rel="modal:open">
+                        <div class="box1">
+                            <p>RINGS</p>
+                        </div>
+                    </a>
+                    <a href="#ex11" rel="modal:open">
+                        <div class="box2">
+                            <p>BANGLES</p>
+                        </div>
+                    </a>
+                    <a href="#ex11" rel="modal:open">
+                        <div class="box3">
+                            <p>ANKLETS</p>
+                        </div>
+                    </a>
+                    <a href="#ex11" rel="modal:open">
+                        <div class="box4">
+                            <p> EARRINGS</p>
+                        </div>
+                    </a>
+                    <a href="#ex11" rel="modal:open">
+                        <div class="box5">
+                            <p>WATCHES</p>
+                        </div>
+                    </a>
+                    <a href="#ex11" rel="modal:open">
+                        <div class="box6">
+                            <p>PENDENT</p>
+                        </div>
+                    </a>
+                    <a href="#ex11" rel="modal:open">
+                        <div class="box7">
+                            <p>BRACELETS</p>
+                        </div>
+                    </a>
+                    <a href="#ex11" rel="modal:open">
+                        <div class="box8">
+                            <p>JEWELERY SET</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- to close the modal -->
+                <a href="#" rel="modal:close">Close</a>
+            </div>
+            <div id="ex2" class="modal">
+                <h2>Mode Of Payment...</h2>
+                <p>we accept all types of cards.</p>
+                <div class="payoptions">
+                    <div class="card far fa-credit-card"></div>
+                    <div class="card fab fa-cc-visa"></div>
+                    <div class="card fab fa-cc-stripe"></div>
+                    <div class="card fab fa-cc-paypal"></div>
+                    <div class="card fab fa-cc-mastercard"></div>
+                    <div class="card fab fa-cc-amazon-pay"></div>
+
+                </div>
+            </div>
+            <div id="ex3" class="modal">
+                <h2>Reviews...</h2>
+                <p>thankyou for your valuable Reviews</p>
+                <div class="rev">
+                    <div class="hed">
+                        <h3>Please Rate us</h3></br>
+                    </div>
+                    <div class="rating">
+                        <input type="radio" name="star" id="star"><label for="star1"></label>
+                        <input type="radio" name="star" id="star"><label for="star2"></label>
+                        <input type="radio" name="star" id="star"><label for="star3"></label>
+                        <input type="radio" name="star" id="star"><label for="star4"></label>
+                        <input type="radio" name="star" id="star"><label for="star5"></label>
+                    </div>
+                </div>
+                <p>4.1 average based on 254 reviews.</p>
+                <hr style="border:3px solid #f1f1f1">
+
+                <div class="row">
+                    <div class="side">
+                        <div>5 star</div>
+                    </div>
+                    <div class="middle">
+                        <div class="bar-container">
+                            <div class="bar-5"></div>
+                        </div>
+                    </div>
+                    <div class="side right">
+                        <div>150</div>
+                    </div>
+                    <div class="side">
+                        <div>4 star</div>
+                    </div>
+                    <div class="middle">
+                        <div class="bar-container">
+                            <div class="bar-4"></div>
+                        </div>
+                    </div>
+                    <div class="side right">
+                        <div>63</div>
+                    </div>
+                    <div class="side">
+                        <div>3 star</div>
+                    </div>
+                    <div class="middle">
+                        <div class="bar-container">
+                            <div class="bar-3"></div>
+                        </div>
+                    </div>
+                    <div class="side right">
+                        <div>15</div>
+                    </div>
+                    <div class="side">
+                        <div>2 star</div>
+                    </div>
+                    <div class="middle">
+                        <div class="bar-container">
+                            <div class="bar-2"></div>
+                        </div>
+                    </div>
+                    <div class="side right">
+                        <div>6</div>
+                    </div>
+                    <div class="side">
+                        <div>1 star</div>
+                    </div>
+                    <div class="middle">
+                        <div class="bar-container">
+                            <div class="bar-1"></div>
+                        </div>
+                    </div>
+                    <div class="side right">
+                        <div>20</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="subbox">
+            <div id="ex11" class="modal">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, itaque.</p>
+                <div class="sbox">
+                    <div class="sb">
+                        <p>JEWELERY SET</p>
+                    </div>
+                    <div class="sb">
+                        <p>JEWELERY SET</p>
+                    </div>
+                    <div class="sb">
+                        <p>JEWELERY SET</p>
+                    </div>
+                    <div class="sb">
+                        <p>JEWELERY SET</p>
+                    </div>
+                    <div class="sb">
+                        <p>JEWELERY SET</p>
+                    </div>
+                    <div class="sb">
+                        <p>JEWELERY SET</p>
+                    </div>
+                    <div class="sb">
+                        <p>JEWELERY SET</p>
+                    </div>
+                    <div class="sb">
+                        <p>JEWELERY SET</p>
+                    </div>
+                    <div class="sb">
+                        <p>JEWELERY SET</p>
+                    </div>
+                    <div class="sb">
+                        <p>JEWELERY SET</p>
+                    </div>
+                    <div class="sb">
+                        <p>JEWELERY SET</p>
+                    </div>
+                    <div class="sb">
+                        <p>JEWELERY SET</p>
+                    </div>
+                </div>
+                <a href="#" rel="modal:close">Close</a>
+            </div>
+        </div>
+    </section>
+    <!-- part3 -->
+    <section class="block1" >
+
+        <div class="slider">
+            <div class="slider-items">
+                <div class="item active">
+                    <img src="b6.jpg" />
+                    <div class="caption1">
+                        <h2>Bead Jewellery</h2>
+                        <p>We make you feel special</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="m2.webp" />
+                    <div class="caption2">
+                        <h2>Antique Jewellery</h2>
+                        <p>We care for vintage looks</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="m3.jpg" />
+                    <div class="caption3">
+                        <h2>Fashion Jewellery</h2>
+                        <p>We keeps you up to date</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="b7.jpeg" />
+                    <div class="caption4">
+                        <h2>Bridal Jewellery</h2>
+                        <p>Blessings in the form of gems</p>
+                    </div>
+                </div>
+            </div>
+            <div class="to-fro">
+                <!-- slider controls -->
+                <div class="left-slide">
+                    <</div>
+                        <div class="right-slide">></div>
+                        <!-- slider controls -->
+                </div>
+            </div>
+            <div class="bg1"></div>
+            <div class="content">
+                <h3>Treate yourself better</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eum perspiciatis voluptates quos in,
+                    doloribus accusamus rem est fugit possimus iure maiores dicta quae non cum dolorem iste. Odio ea
+                    voluptatem ullam inventore odit reiciendis tenetur eum sunt ipsa, iste earum illo necessitatibus
+                    officiis. Blanditiis nesciunt sint impedit quisquam consectetur.</p>
+            </div>
+    </section>
+    <!-- part4 -->
+    <section class="block2">
+        <h1>Use Jewelery's magic,</h1>
+        <h3>buy fine Jewelery</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, eveniet?</p>
+    </section>
+    <section class="block3" id="contact">
+        <div class="part">
+            <div class="part1">
+             <form>
+              <h2>Contact Us</h2>
+              <input type="text" placeholder="Your name"></br>
+              <input type="text" placeholder="Your email id"></br>
+              <input type="text" placeholder="Your phone number"></br>
+              <!-- <textarea type="text" placeholder="Comment" cols="30" rows="10"></textarea></br> -->
+              <textarea name="text" cols="48" rows="10" placeholder="comment"></textarea></br></br>
+              <button type="submit">Send Message</button>
+             </form>
+            </div>
+            <div class="part2">
+               <h2>Location</h2>
+               <img src="s1.webp" alt="poster"></br>
+               <div class="fas fa-phone-alt">&nbsp;&nbsp;+91-2345-2345-23</div></br>
+               <div class="fas fa-map-marker-alt">&nbsp;&nbsp;234 Lorem ipsum dolor sit amet,Nr.456</div></br>
+               <div class="fa fa-envelope">&nbsp;&nbsp;elengantgems@gmail.com</div>
+            </div>
+        </div>
+    </section>
+    <!-- part5 -->
+    <footer>
+        <div class="phase">
+            <div class="phase1">
+                <h2>ElegantGems</h2>
+                <div class="fas fa-phone-alt">&nbsp;&nbsp;+91-2345-2345-23</div></br>
+                <div class="fas fa-map-marker-alt">&nbsp;&nbsp;234 ipsum dolor sit amet,Nr.456</div></br>
+                <div class="fa fa-envelope">&nbsp;&nbsp;elengantgems@gmail.com</div></br></br></br></br>
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+                <a href="#" class="fab fa-twitter"></a></br>
+            </div>
+            <div class="phase2">
+                <h2>Latest product</h2>
+                <h3>Lorem</h3>
+                   <p>&nbsp;Lorem ipsum dolor sit amet.</p>
+                <h3>Lorem</h3>
+                    <p>&nbsp;Lorem ipsum dolor sit amet.</p>
+                <h3>Lorem</h3>
+                    <p>&nbsp;Lorem ipsum dolor sit amet.</p>
+                </div>
+            <div class="phase3">
+                <h2>Opning Times</h2>
+                <p>Monday&nbsp;&nbsp;-&nbsp;10am-6pm</p>
+                <p>Tuesday&nbsp;&nbsp;-&nbsp;10am-6pm</p>
+                <p>Wednesday&nbsp;-&nbsp;10am-6pm</p>
+                <p>Thursday&nbsp;&nbsp;-&nbsp;10am-6pm</p>
+                <p>Friday&nbsp;&nbsp;-&nbsp;10am-6pm</p>
+                <p>Saturday&nbsp;&nbsp;-&nbsp;close</p>
+                <p>Sunday&nbsp;&nbsp;-&nbsp;10am-6pm</p>
+
+            </div>
+          <hr class="line"></hr></br>
+          <div class="copy">
+          <h3>copyright @2027 elegantgems.com ,all rights are reserved.</h3> 
+          </div>
+        </div>
+       
+    </footer>
+</body>
+<!-- script related to slideshow -->
+<script>
+    var slides = document.querySelector('.slider-items').children;
+    var nextSlide = document.querySelector(".right-slide");
+    var prevSlide = document.querySelector(".left-slide");
+    var totalSlides = slides.length;
+    var index = 0;
+
+    nextSlide.onclick = function () {
+        next("next");
+    }
+    prevSlide.onclick = function () {
+        next("prev");
+    }
+
+    function next(direction) {
+
+        if (direction == "next") {
+            index++;
+            if (index == totalSlides) {
+                index = 0;
+            }
+        }
+        else {
+            if (index == 0) {
+                index = totalSlides - 1;
+            }
+            else {
+                index--;
+            }
+        }
+
+        for (i = 0; i < slides.length; i++) {
+            slides[i].classList.remove("active");
+        }
+        slides[index].classList.add("active");
+
+    }
+</script>
+<!-- for modal -->
+<script>
+    $(document).ready(function () {
+        $('a[href="#ex1"]').click(function () {
+            $(this).modal({
+                fadeDuration: 300,
+                fadeDelay: 0.50
+            });
+            return false;
+        });
+    });
+</script>
+<script>
+    $(document).ready(function () {
+        $('a[href="#ex11"]').click(function () {
+            $(this).modal({
+                fadeDuration: 300,
+                fadeDelay: 0.50
+            });
+            return false;
+        });
+    });
+</script>
+<script>
+    $(document).ready(function () {
+        $('a[href="#ex2"]').click(function () {
+            $(this).modal({
+                fadeDuration: 300,
+                fadeDelay: 0.50
+            });
+            return false;
+        });
+    });
+</script>
+<script>
+    $(document).ready(function () {
+        $('a[href="#ex3"]').click(function () {
+            $(this).modal({
+                fadeDuration: 300,
+                fadeDelay: 0.50
+            });
+            return false;
+        });
+    });
+</script>
+
+</html>

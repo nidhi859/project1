@@ -786,6 +786,8 @@ html{
 /* part3 */
 .block2{
     background-image: url('s4.jpg');
+    background-size: cover; /*image according to div size apne aap set ho jaayegi repeat nhi hogi*/ 
+    background-attachment: fixed;/*ye div ke baground ko fix krdega to create parallax effect, And ye shayad tujhe pata hi hai*/
     height: 300px;
     filter: grayscale(100%);
     /* opacity: .9; */
